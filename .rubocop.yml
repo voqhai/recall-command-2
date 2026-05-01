@@ -1,0 +1,29 @@
+plugins:
+  - rubocop-sketchup
+
+AllCops:
+  DisabledByDefault: true
+  DisplayStyleGuide: true
+  NewCops: disable
+  SketchUp:
+    SourcePath: . # Path to extension sources in project directory.
+    EncryptedExtension: false # Enable if you plan to encrypt your extension.
+    TargetSketchUpVersion: 2021 M1
+
+SketchupDeprecations:
+  Enabled: true
+
+SketchupPerformance:
+  Enabled: true
+
+SketchupRequirements:
+  Enabled: true
+
+SketchupRequirements/FileStructure:
+  Enabled: false # False positive: .git/ counted as second support directory
+
+SketchupSuggestions:
+  Enabled: true
+
+SketchupBugs:
+  Enabled: true

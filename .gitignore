@@ -1,0 +1,12 @@
+*.log
+bin/
+obj/
+.vs/
+.DS_Store
+*.rbz
+*.skp
+*.layout
+*.dat
+Build/
+Assets/
+TestFiles/
