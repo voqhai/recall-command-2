@@ -174,7 +174,7 @@ module CURIC::Recall
     SCAN_INTERVAL_MAX    = 30.0
     SCAN_INTERVAL_GROWTH = 2.0
 
-    # TracePoint#enable(target:) was introduced in Ruby 2.6 (SketchUp 2022+).
+    # TracePoint#enable(target:) was introduced in Ruby 2.6 (SketchUp 2021+ Ruby 2.7).
     # Probe once at class load time so we can fall back gracefully on older versions.
     TRACE_TARGET_SUPPORTED = begin
       probe = proc {}
