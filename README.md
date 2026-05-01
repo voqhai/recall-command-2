@@ -7,7 +7,6 @@ A SketchUp extension that lets you instantly re-invoke the last used command wit
 - Re-runs the last used **SketchUp native tool** (Move, Push/Pull, Rotate, etc.) or **Ruby extension command**
 - Tracks `UI::Command` executions automatically via TracePoint — no monkey-patching required
 - Works with commands registered by any extension, including those loaded after startup
-- Compatible with **Curic PieMenu** (PieMenu UI tools are filtered out to avoid conflicts)
 - Graceful fallback on SketchUp versions older than 2022 (TracePoint `target:` not supported)
 
 ## Requirements
