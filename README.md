@@ -1,6 +1,6 @@
 # Curic Recall Command
 
-A SketchUp extension that lets you instantly re-invoke the last used command with a single keyboard shortcut — similar to the `G` key in Blender or "Repeat Last" in AutoCAD.
+A SketchUp extension that lets you instantly re-invoke the last used command with a single keyboard shortcut.
 
 ## Features
 
