@@ -12,8 +12,8 @@ A SketchUp extension that lets you instantly re-invoke the last used command wit
 
 ## Requirements
 
-- SketchUp 2021 or later (Ruby 2.7+)
-- TracePoint `target:` — available from Ruby 2.6, shipped with SketchUp 2021
+- SketchUp 2022 or later (Ruby 2.7+)
+- TracePoint `target:` — available from Ruby 2.6, shipped with SketchUp 2021 - Ruby 2.7
 
 ## Installation
 
